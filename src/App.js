@@ -1,7 +1,6 @@
 import './App.css';
 import Header from './Header.js';
 import ImageList from './ImageList.js';
-import Dropdown from './Dropdown.js';
 
 import React, { Component } from 'react'
 
@@ -11,7 +10,7 @@ export default class App extends Component {
       <div className="body">
         <div className="main">
           <Header />
-          <Dropdown />
+          <ImageList />
         </div>
       </div>
     )

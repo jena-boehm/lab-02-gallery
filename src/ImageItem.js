@@ -9,6 +9,7 @@ export default class ImageItem extends Component {
                 <div className="title">{this.props.title}</div>
                 <div className="description">{this.props.description}</div>
                 <div className="horns">{this.props.horns}</div>
+                <div className="keyword">{this.props.keyword}</div>
             </div>
         )
     }
